@@ -5,5 +5,9 @@ def write_file_with_name():
     with open("output.txt", "w") as file:
         file.write(f"My name is: {name}")
 
+def helloWorld():
+    print('Hello World')
+
 # Test the function
 write_file_with_name()
+helloWorld()
